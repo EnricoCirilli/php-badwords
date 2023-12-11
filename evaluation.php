@@ -1,7 +1,8 @@
 <?php
 $message = $_GET["message"];
 echo $message;
-echo str_replace("pazzia","***","$message");
+$length = strlen($message);
+// echo str_replace("pazzia","***","$message");
 
 
 ?>
@@ -13,6 +14,9 @@ echo str_replace("pazzia","***","$message");
     <title>Document</title>
 </head>
 <body>
-    
+    <p><?php $message?></p>
+    <p>La lunghezza della stringa è <?php echo $length; ?></p>
+    <p><?php echo str_replace("pazzia","***","$message"); ?></p>
+    <p> La lunghezza della stringa è <?php echo $length ?></p>
 </body>
 </html>
