@@ -1,5 +1,7 @@
 <?php
 $message = $_GET["message"];
+echo $message;
+echo str_replace("pazzia","***","$message");
 
 
 ?>
@@ -11,6 +13,6 @@ $message = $_GET["message"];
     <title>Document</title>
 </head>
 <body>
-    <h1>Ciao <?php echo $message; ?></h1>
+    
 </body>
 </html>
