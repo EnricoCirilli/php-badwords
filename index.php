@@ -10,8 +10,9 @@
 <body>
      <h1>Inserisci e Valuta se ci sono parole da censurare</h1>
      <form action="evaluation.php" method="GET">
-        <label for="paragraph">paragrafo</label>
-        <input type="text" id="paragraph" name="paragraph">
+        <label for="username">paragrafo</label>
+        <input type="text" id="username" name="paragraph">
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
         <button type="submit">Invia</button>
      </form>
 </body>
