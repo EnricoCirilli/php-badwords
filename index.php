@@ -9,7 +9,7 @@
 </head>
 <body>
      <h1>Inserisci e Valuta se ci sono parole da censurare</h1>
-     <form action="">
+     <form action="evaluation.php">
         <label for="paragraph">paragrafo</label>
         <input type="text" id="paragraph" name="paragraph">
 
